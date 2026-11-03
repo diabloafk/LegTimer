@@ -27,4 +27,5 @@ The jar will be in `build/libs/`.
 
 ## License
 
-All Rights Reserved.
+MIT. See [LICENSE](LICENSE).
+
