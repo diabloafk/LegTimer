@@ -1,25 +1,30 @@
+# LegTimer
 
-Installation information
-=======
+A Minecraft mod for NeoForge.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+## Requirements
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+- Minecraft 1.21.1
+- NeoForge 21.1.248
+- Java 21
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+## Installation
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+1. Install NeoForge for Minecraft 1.21.1.
+2. Download the latest `.jar` from the Releases page.
+3. Put it in your `mods` folder.
+4. Launch the game.
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+## Building
+
+```bash
+git clone https://github.com/diabloafk/LegTimer.git
+cd LegTimer
+./gradlew build
+```
+
+The jar will be in `build/libs/`.
+
+## License
+
+All Rights Reserved.
